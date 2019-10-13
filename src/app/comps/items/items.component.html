@@ -1,0 +1,8 @@
+<h1 style="text-align: center">List of Items</h1>
+<div id="list_items">
+    <mat-list role="list" *ngFor="let it of items1; let i=index" >
+        <mat-list-item >{{it.Title}} - {{it.description}}</mat-list-item>
+        <mat-divider></mat-divider>
+    </mat-list>
+</div>
+

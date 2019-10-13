@@ -1,0 +1,13 @@
+<mat-card>
+    <mat-card-title>Add Item</mat-card-title>
+    <mat-card-content>
+        <form  (ngSubmit)="send($event)">
+            <input type="text" placeholder="Title" name="title" [(ngModel)]="item.Title">
+            <input type="text" placeholder="description" name="description" [(ngModel)]="item.description">
+            <button type="submit" value="submit">Submit</button>
+        </form>
+    </mat-card-content>
+</mat-card>
+<form action="">
+
+</form>
