@@ -21,7 +21,7 @@ export class AddItemComponent implements OnInit {
     
       this.item.Title = '';
       this.item.description = '';
-      alert('add successful!');
+      
     }
   }
 
